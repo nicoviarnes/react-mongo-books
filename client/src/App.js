@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
+        <Nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -18,7 +18,7 @@ function App() {
               <Link to="/books">Books</Link>
             </li>
           </ul>
-        </nav>
+        </Nav>
         <Switch>
           <Route exact path="/" component={Books} />
           <Route exact path="/books" component={Books} />
